@@ -1,0 +1,23 @@
+#contenedor {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#img {
+    margin-top: -200px;
+}
+
+#contenedordoctor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+}
+
+table {
+    margin-top: -200px;
+}

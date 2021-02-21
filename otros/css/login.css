@@ -1,0 +1,39 @@
+#contenedor {
+    width: 99%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#contenedor1 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+#login {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+#botones {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    margin-top: 40px;
+}
+
+div {
+    margin: 15px;
+}
+
+input[type=submit],
+input[type=reset] {
+    width: 100px;
+    height: 40px;
+}

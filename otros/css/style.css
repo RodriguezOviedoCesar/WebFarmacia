@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+#descuentos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+#carrusel {
+    margin-top: 50px;
+}
+
+#cajitas {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#cajitas1 {
+    width: 90%;
+    padding: 15px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+#cajitas1 img:hover {
+    width: 430px;
+    height: 290px;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+}
