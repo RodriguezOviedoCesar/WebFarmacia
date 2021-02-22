@@ -52,15 +52,17 @@ class Select{
             ?>
         </tr>
             <?php
-             for($i = 0; $i <= $result->fetch_assoc(); $i++){
-                 echo"<tr>";
-                 foreach($datos as $dat){
-                         echo "<td>";
-                         echo $id[$dat];
-                         echo "</td>";
-                 }
-                 echo"</tr>";
-             }
+
+                for($i = 0; $i <= $result->fetch_assoc(); $i++){
+                    echo"<tr>";
+                    foreach($datos as $dat){
+                            echo "<td>";
+                            echo $id[$dat];
+                            echo "</td>";
+                    }
+                    echo"</tr>";
+                }
+                
             ?>
     </table>
 </body>
