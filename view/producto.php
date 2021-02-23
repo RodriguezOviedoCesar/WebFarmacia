@@ -1,6 +1,7 @@
 <?php
 
-require '../controlador/select.php';
+
+require_once '../model/select.php';
 
 $producto = new Select('producto');
 $datos = array('idproducto','nomprod', 'fechahoravenc','stock','presentacion','concentracion',

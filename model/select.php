@@ -10,7 +10,7 @@ class Select
 
     public function Select1(string $data, $datos, $parametros)
     {
-        require_once '../modelo/conexion.php';
+        require_once '../model/conexion.php';
         // foreach($dato as $dat){
         //     echo $dat."<br>";
         // }
