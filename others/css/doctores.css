@@ -21,3 +21,15 @@
 table {
     margin-top: -200px;
 }
+
+@media(max-width:750px) {
+    #img {
+        padding-left: 15px !important;
+    }
+}
+
+@media(max-width:750px) {
+    #img {
+        padding-left: 85px !important;
+    }
+}

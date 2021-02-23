@@ -18,7 +18,7 @@
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                 <div class="container-fluid">
                     <img src="../Farmacia1/otros/imagenes/logo.png" alt="logo" title="logo" style="height: 50px;" width="100px">
-                    <a class="navbar-brand" href="/vista/contenido/index.php" style="margin-left:5px">Farmacia Choclito</a>
+                    <a class="navbar-brand" href="/vista/contenido/index.php" style="margin-left:5px">Farmacia Name</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
