@@ -1,6 +1,6 @@
 <?php
 
-require_once '../controlador/select.php';
+require_once '../model/select.php';
 
 $doctor = new Select('empleado');
 $datos = array('idempleado','idtipoestado', 'idcargoempleado','dni','nombres','direccion','telefono');

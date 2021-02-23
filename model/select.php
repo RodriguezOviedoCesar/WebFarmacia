@@ -10,7 +10,7 @@ class Select
 
     public function Select1(string $data, $datos, $parametros)
     {
-        require_once '../modelo/conexion.php';
+        require_once '../model/conexion.php';
         // foreach($dato as $dat){
         //     echo $dat."<br>";
         // }
@@ -23,16 +23,16 @@ class Select
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Document</title>
-            <link rel="stylesheet" href="../otros/bootstrap/css/bootstrap.min.css">
-            <link rel="stylesheet" href="../otros/iconos/css/all.css">
-            <link rel="stylesheet" href="../otros/css/doctores.css">
+            <link rel="stylesheet" href="../others/bootstrap/css/bootstrap.min.css">
+            <link rel="stylesheet" href="../others/icons/css/all.css">
+            <link rel="stylesheet" href="../others/css/doctores.css">
         </head>
 
         <body>
             <div id="contenedor">
                 <div id="contenedordoctor">
                     <div id="img">
-                        <img class="img-fluid" src="../otros/imagenes/logo.png" alt="logo" title="logo">
+                        <img class="img-fluid" src="../others/img/logo.png" alt="logo" title="logo">
                     </div>
                     <table class="table">
                         <tr class="table-dark">
@@ -127,8 +127,8 @@ class Select
         </body>
 
         <head>
-            <script type="text/javascript" src="../otros/bootstrap/jquery-3.5.1.min.js"></script>
-            <script type="text/javascript" src="../otros/bootstrap/js/bootstrap.min.js"></script>
+            <script type="text/javascript" src="../others/bootstrap/jquery-3.5.1.min.js"></script>
+            <script type="text/javascript" src="../others/bootstrap/js/bootstrap.min.js"></script>
         </head>
 
         </html>
